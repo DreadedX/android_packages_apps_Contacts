@@ -74,9 +74,6 @@
         <item name="android:icon">@android:color/transparent</item>
         <item name="android:listViewStyle">@style/ListViewStyle</item>
         <item name="android:windowBackground">@color/background_primary</item>
-        <item name="android:colorPrimaryDark">@color/primary_color_dark</item>
-        <item name="android:colorPrimary">@color/primary_color</item>
-        <item name="android:colorAccent">@color/primary_color</item>
         <item name="android:alertDialogTheme">@style/ContactsAlertDialogTheme</item>
         <item name="list_item_height">?android:attr/listPreferredItemHeight</item>
         <item name="activated_background">@drawable/list_item_activated_background</item>
@@ -147,10 +144,10 @@
     </style>
 
     <style name="ContactPickerSearchTheme" parent="@style/PeopleTheme">
-        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorPrimary">@color/text_color_white</item>
         <item name="android:textColorHint">?android:textColorHintInverse</item>
         <item name="android:colorControlActivated">?android:textColorHintInverse</item>
-        <item name="android:colorControlNormal">@android:color/white</item>
+        <item name="android:colorControlNormal">@color/white</item>
     </style>
 
     <!-- Text in the action bar at the top of the screen -->
